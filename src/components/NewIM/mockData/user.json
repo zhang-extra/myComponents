@@ -1,0 +1,11 @@
+{
+  "key": 0,
+  "id": "Clearlove7",
+  "avatar": "猪",
+  "description": "7777777",
+  "chatGroups": {
+    "private": [1, 2, 3, 4, 5, 6, 7, 8],
+    "group1": [0, 1]
+  },
+  "recentChats":[{ "group": "private", "key": 4, "preDataLength": null }, { "group": "private", "key": 1, "preDataLength": null }, { "group": "group1", "key": 1, "preDataLength": null }]
+}

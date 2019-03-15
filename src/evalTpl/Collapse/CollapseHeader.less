@@ -1,0 +1,45 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  position: relative;
+  transition: all 0.3s ease;
+  // &:hover {
+  //   border: 1px dashed orangered;
+  // }
+
+  & > .folderIcon {
+    font-size: 20px;
+    color: #d8d8d8;
+  }
+}
+
+.text {
+  color: #333;
+  font-size: 16px;
+  margin-left: 12px;
+  border-bottom: 1px solid rgba(224, 224, 224, 0.5);
+  line-height: 40px;
+  width: calc(~"100% - 40px");
+
+  & > .deleteIcon {
+    position: absolute;
+    right: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(187, 187, 187);
+    opacity: 0;
+    transition: all 0.3s ease;
+    transform: translateY(50%);
+    &:hover {
+      transform: translateY(50%) scale(1.11);
+      color: rgb(88, 88, 88);
+    }
+  }
+
+  &:hover {
+    & > .deleteIcon {
+      opacity: 1;
+    }
+  }
+}

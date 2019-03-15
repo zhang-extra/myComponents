@@ -1,0 +1,5 @@
+{
+  "user": "a",
+  "avatar": "A",
+  "showChat": [{ "type": "project", "id": "产品设计" }, { "type": "private", "id": "b" }, { "type": "private", "id": "c" }]
+}

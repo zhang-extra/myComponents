@@ -1,0 +1,57 @@
+
+.drTable {
+  & :global(.ant-table-fixed-left) {
+    border-right: 1px solid #e9e9e9;
+    box-shadow: none;
+  };
+  & :global(.ant-table-fixed-right) {
+    border-left: 1px solid #e9e9e9;
+    box-shadow: none;
+  };
+  & :global(.ant-checkbox) {
+    transition: none;
+    & span{
+      transition: none;
+      &:after {
+        transition: none;
+      }
+    }
+    & input{
+      transition: none;
+    }
+  }
+  & :global(table) {
+    table-layout: fixed;
+  }
+};
+
+.calcPlaceholder {
+  position: absolute;
+  visibility: hidden;
+  width: fit-content;
+  height: fit-content;
+}
+
+.delete {
+  transition: all 0.3s ease;
+  &:hover {
+    transform: scale(1.2);
+    color: black;
+    cursor: pointer;
+  }
+}
+
+.customTd {
+  display: flex;
+  align-items: center;
+  &.ellipsis {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  };
+  &.wrap {
+    white-space: normal;
+    word-wrap: break-word;
+  };
+}

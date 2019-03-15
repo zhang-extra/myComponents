@@ -1,0 +1,27 @@
+.stepChart{
+  :global{
+    .ant-steps-item{
+      height: 100px;
+    }
+  }
+  .title {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    transition: opacity 0.5s ease;
+    .actions{
+      margin-left: 20px;
+    }
+    &:hover {
+      & .button {
+        opacity: 1;
+      }
+    }
+    & .button {
+      opacity: 0;
+    }
+  }
+}
+

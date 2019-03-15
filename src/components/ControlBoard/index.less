@@ -1,0 +1,139 @@
+.wrapperWidth1{
+  width:442px !important;
+}
+.wrapperWidth2{
+  width:682px !important;
+}
+.wrapperWidth3{
+  width:920px !important;
+}
+.rightWrapperWidth1{
+  width:280px !important;
+}
+.rightWrapperWidth2{
+  width:520px !important;  
+}
+.rightWrapperWidth3{
+  width:756px !important;  
+}
+.rightInfoWidth{
+  flex-direction: row !important;
+  height:100% !important;
+  width: fit-content !important;
+}
+.wrapper{
+  width: fit-content;
+  max-width: 1160px;
+  height: fit-content;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 4px;
+  border: 1px solid gray;
+  & .topInfo{
+    display: flex;
+    & .historyWrapper{
+      width: 160px !important;
+      // padding-bottom: 20px;
+      max-height: 582px;
+      overflow: auto;
+      & .historyHead{
+        margin-bottom: 0px;
+        margin-top: 20px;
+        padding: 4px 24px;
+        letter-spacing: 4px;
+        font-size: 17px;
+        font-weight: 500;
+      }
+      & .historyRecord{
+        padding: 8px 12px 8px 24px;
+        margin-bottom: 0px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        &:hover{
+          color:#1890ff;
+          cursor: pointer;
+        }
+      }
+    };
+
+    & .rightWrapper{
+      border-left:1px solid #e8e8e8; 
+      & .rightHead{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+        & .searchInput{
+          width: 60%;
+          margin-top: 30px;
+        }
+        & .btnGroup{
+          margin-top: 30px;
+        }
+      }
+      & .rightInfo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 510px;
+        width: 1000px;
+        padding-top: 12px;
+        padding-left: 40px;
+        overflow: auto;
+        // writing-mode: vertical-lr;
+        & .item {
+          height: fit-content;
+          width: 170px;
+          margin: 0 68px 16px 0;
+          padding: 4px 24px;
+          // writing-mode: horizontal-tb;
+        & > .menu {
+            display: flex;
+            position: relative;
+            align-items: center;
+            line-height: 32px;
+            & > .icon {
+              position: absolute;
+              margin-left: -36px;
+              color:#4F5257;
+              top:6px;
+              font-size: 22px;
+          };
+            & > .menuTitle {
+              color:rgb(126, 138, 141);
+              font-size: 17px;
+              font-weight: 500;
+            };
+          };
+          & > .module{
+            width: 100%;
+            padding-left: 0px;
+            line-height: 24px;
+            cursor: pointer;
+            & > a{
+              color: #484848;
+            }
+            &:hover{
+              & > a{
+                color: #1890ff;
+              }
+            }
+          };
+        };
+      }
+    }
+  }
+
+  & .footer{
+    height: 24px;
+    line-height: 24px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background: #e8e8e8;
+    text-align: center;
+    cursor: pointer;
+    &:hover{
+      font-size: 15px;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+.setting {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: calc(~'100% - 64px');
+  background: #fff;
+  & > div {
+    width: 50%;
+    height: 100%;
+    padding: 16px;
+    & > span {
+      color: gray;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    };
+    & > input {
+      margin-top: 4px;
+    };
+    & + div {
+      border-left: 1.5px solid #e5e5e5;
+    };      
+  };
+};
+
+.user {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  padding: 16px;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: 0.1s background ease;
+  &:not(.invite):hover {
+    background: #fcffe6;
+  };
+  &.selected {
+    background: #e6f7ff;
+    &:hover {
+      background: #ffccc7;
+    }
+  };
+  &.invite {
+    color: #69c0ff;
+    cursor: pointer;
+    transition: 0.4s color ease;
+    &:hover {
+      color: #40a9ff;
+      & > .avatar {
+        background: #40a9ff;
+      };
+    };
+    & > .avatar {
+      margin-right: 20px;
+      font-size: 18px;
+      color: #fff;
+      background: #69c0ff;
+      transition: 0.4s background ease;
+    };
+  };
+  & > .avatar {
+    margin-right: 12px;
+  };
+  & > .owner {
+    color: #ff4d4f;
+    margin-left: 4px;
+  };
+  & > .check {
+    position: absolute;
+    right: 48px;
+  };
+};

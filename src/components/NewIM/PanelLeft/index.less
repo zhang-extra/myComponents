@@ -1,0 +1,42 @@
+.panelLeftWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 37.5%;
+  max-width: 350px;
+  height: 100%;
+  border-right: 0.75px solid #e5e5e5;
+  & > .search {
+    display: block;
+    flex-shrink: 0;
+    padding: 0 16px;
+    margin: 0 auto 0 auto;
+    & > span {
+      right: 24px !important;
+    };
+  };
+  & > .tabs {
+    flex-shrink: 0;
+    margin-top: 12px;
+    padding: 0 16px 6.5px 16px;
+    border-bottom: 1.5px solid #e5e5e5;
+    & > .tabItem {
+      font-size: 17px;
+      color: #383838;
+      &:hover {
+       color: #91d5ff;
+      };
+      &.current {
+        padding-bottom: 8px;
+        border-bottom: 2px solid #3da8f5;
+        font-size: 18px;
+        color: #3da8f5;
+      };
+    };
+    .tabItem:first-child {
+      margin-left: 2px;
+    };
+    & .tabItem + .tabItem {
+      margin-left: 16px;
+    };
+  };
+}

@@ -1,0 +1,264 @@
+.panelRight {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 62.5%;
+  & > .panelRightHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 64px;
+    height: 64px;
+    padding: 0 16px;
+    border-bottom: 1.5px solid #e5e5e5;
+    &.noSelect {
+      justify-content: flex-end;
+    };
+    & > .backSettingIcon {
+      font-size: 18px;
+      cursor: pointer;
+      &:hover {
+        color: #69c0ff;
+      };
+    };
+    & > span {
+      font-size: 18px;
+      &.settingGroup {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      };
+    };
+    & > .iconGroup {
+      display: flex;
+      align-items: center;
+      & > i {
+        color: grey;
+        font-size: 18px;
+        cursor: pointer;
+        &:hover {
+          color: #69c0ff;
+        };
+      };
+      & > i + i {
+        margin-left: 16px;
+      };
+      i:last-child {
+        font-size: 20px;
+      };
+    };
+  };
+  & > .spin {
+    z-index: 1;
+    position: absolute;
+    top: 72px;
+    left: 50%;
+    transform: translateX(-50%);
+  };
+  & > .chartList {
+    display: flex;
+    flex: 1 1 auto;
+    height: 100%;
+    & :global(.ReactVirtualized__List) {
+      outline: none;
+    };
+    & .chartItem {
+      display: flex;
+      align-items: center;
+      padding: 12px 12px;
+      &.own {
+        flex-direction: row-reverse;
+        & > .avatar {
+          margin-left: 8px;
+        };
+        & > div {
+          align-items: flex-end;
+          & > .text {
+            margin-right: 0px;
+          };
+          & > .time {
+            margin-right: 2px;
+          };
+        }
+      };
+      &.others {
+        flex-direction: row;
+        & > .avatar {
+          margin-right: 8px;
+        };
+        & > div {
+          align-items: flex-start;
+          & > .text {
+            margin-left: 0px;
+          };
+          & > .time {
+            margin-left: 2px;
+          };
+        }
+      };
+      & > .avatar {
+        align-self: flex-start;
+        margin-top: 1.5px;
+      };
+      & > div {
+        display: flex;
+        flex-direction: column;
+        max-width: 75%;
+        & > .text {
+          position: relative;
+          right: 0;
+          max-width: 100%;
+          width: fit-content;
+          padding: 8px 13px;
+          border-radius: 10px;
+          background: #e5f6fb;
+          & > pre {
+            margin: 0;
+            text-overflow: ellipsis;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+          };
+          & > .sendingIcon {
+            position: absolute;
+            right: 100%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: #0050b3;
+            &.failed {
+              transform: translate(-10%, -50%);
+              font-size: 18px;
+              color: red;
+              &:hover {
+                cursor: pointer;
+              };
+            };
+          };
+        };
+        & > .time {
+          color: #a6a6a6;
+          font-size: 12px;
+          white-space: nowrap;
+        };
+      };
+    };
+  };
+  & > .inputArea {
+    position: relative;
+    padding: 12px;
+    background: #e5e5e5;
+    & textarea:focus {
+      margin-bottom: 36px;
+    };
+    & > div {
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      width: 100%;
+      padding: 0 15px;
+      right: 0px;
+      bottom: 15px;
+    };
+  };
+  & > .noSelectChatIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 128px;
+    color: #e5e5e5;
+  };
+  & > .noSelectChatText {
+    position: absolute;
+    top: calc(~'50% + 66px');
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 24px;
+    color: #e5e5e5;
+  };
+  & > .settingGroup {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: calc(~'100% - 64px');
+    background: #fff;
+    & > div {
+      width: 50%;
+      height: 100%;
+      padding: 16px;
+      & > span {
+        color: gray;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      };
+      & > input {
+        margin-top: 4px;
+      };
+      & + div {
+        border-left: 1.5px solid #e5e5e5;
+      };      
+    };
+  };
+};
+
+.user {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  padding: 16px;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: 0.1s background ease;
+  &:not(.invite):hover {
+    background: #fcffe6;
+  };
+  &.selected {
+    background: #e6f7ff;
+    &:hover {
+      background: #ffccc7;
+    }
+  };
+  &.invite {
+    color: #69c0ff;
+    cursor: pointer;
+    transition: 0.4s color ease;
+    &:hover {
+      color: #40a9ff;
+      & > .avatar {
+        background: #40a9ff;
+      };
+    };
+    & > .avatar {
+      margin-right: 20px;
+      font-size: 18px;
+      color: #fff;
+      background: #69c0ff;
+      transition: 0.4s background ease;
+    };
+  };
+  & > .avatar {
+    margin-right: 12px;
+  };
+  & > .check {
+    position: absolute;
+    right: 48px;
+  };
+};
+
+.meunDisable {
+  color: rgba(0, 0, 0, 0.65);
+  cursor: default;
+  & > button {
+    margin: -4px 0 0 8px;;
+  };
+  &:hover {
+    color: rgba(0, 0, 0, 0.65);
+    background-color: #fff;
+    cursor: default;
+  }
+};

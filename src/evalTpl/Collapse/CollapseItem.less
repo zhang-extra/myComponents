@@ -1,0 +1,46 @@
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin: 0 0 4px 8px;
+  position: relative;
+  transition: all 0.6s ease;
+
+  & > .text {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+
+  & > .addIcon {
+    transition: all 0.3s ease;
+  }
+
+  & > .editAndDeleteIcon {
+    position: absolute;
+    font-size: 19px;
+    cursor: pointer;
+    color: #bbbbbb;
+    opacity: 0;
+    transition: all 0.3s ease;
+    &:hover {
+      transform: scale(1.11);
+      color: rgb(88, 88, 88);
+    }
+  }
+  i:nth-last-child(1) {
+    right: 12px;
+  }
+
+  i:nth-last-child(2) {
+    right: 44px;
+  }
+
+  &:hover {
+    background: #f5f5f5;
+    & > .editAndDeleteIcon {
+      opacity: 1;
+    }
+  }
+}

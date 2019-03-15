@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: fit-content;
+  width: fit-content;
+  transition: width 1s ease, height 1s ease;
+  &.changeDirection {
+    transition: all 0s ease;
+  }
+}
+.canvas {
+  position: absolute;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+}
+
+.item {
+  max-width: 0px;
+  max-height: 0px;
+  transition: margin 1s ease, transform 1s ease, max-width 1s ease, max-height 1s ease;
+  position: relative;
+  z-index:1;
+  opacity: 0;
+  // transform: scale(0);
+  &.show {
+    max-width: 9999px;
+    max-height: 9999px;
+    opacity: 1;
+    transform: scale(1);
+  };
+  &.changeDirection {
+    transition: all 0s ease;
+  }
+}
+
+.childWrapper {
+  display: flex;
+  transition: all 0s ease;
+}

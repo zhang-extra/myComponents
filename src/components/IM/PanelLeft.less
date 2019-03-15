@@ -1,0 +1,111 @@
+.panelLeft {
+  width: 37.5%;
+  border-right: 1.5px solid #e5e5e5;
+  & > .panelLeftHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding: 0 16px;
+    border-bottom: 1.5px solid #e5e5e5;
+    &.openChat {
+      border: 0;
+      i:first-child {
+        font-size: 16px;
+      };
+      i:last-child {
+        opacity: 0;
+        cursor: default;
+      };
+      & > span {
+        font-size: 16px;
+        color: #383838;
+      };
+    };
+    & > i {
+      color: grey;
+      font-size: 20px;
+      cursor: pointer;
+      &:hover {
+        color: #69c0ff;
+      };
+    };
+  };
+  & > .search {
+    display: block;
+    padding: 0 16px;
+    margin: 0 auto 0 auto;
+    & > span {
+      right: 24px !important;
+    };
+  };
+  & > .tabs {
+    margin-top: 12px;
+    padding: 0 16px 6.5px 16px;
+    border-bottom: 1.5px solid #e5e5e5;
+    & > .tabItem {
+      color: #383838;
+      &:hover {
+       color: #91d5ff;
+      };
+      &.current {
+        padding-bottom: 8px;
+        border-bottom: 2px solid #3da8f5;
+        color: #3da8f5;
+      };
+    };
+    .tabItem:first-child {
+      margin-left: 2px;
+    };
+    & .tabItem + .tabItem {
+      margin-left: 16px;
+    };
+  };
+  & > .list {
+    & .listItem {
+      position: relative;
+      height: 76px;
+      padding: 0 16px;
+      cursor: pointer;
+      &.selected {
+        background: #f5f5f5;
+      }
+      &:hover {
+        background: #e6f7ff;
+        & .close {
+          display: unset;
+        }
+      }
+      & .close {
+        display: none;
+        position: absolute;
+        top: -8px;
+        right: 4px;
+        font-size: 14px;
+        &:hover {
+          color: #69c0ff;
+          font-size: 16px;
+        }
+      }
+      & .listItemMeta {
+        align-items: center;
+        max-width: 80%;
+        & :global(.ant-list-item-meta-content) {
+          max-width: 85%;
+        };
+        & :global(.ant-list-item-meta-avatar) {
+          margin-right: 28px;
+        };
+        & :global(.ant-list-item-meta-title) {
+          margin: 14.5px 0 4px 0;
+        };
+        & .description {
+          overflow: hidden;
+          white-space: nowrap;  
+          text-overflow: ellipsis;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.homeWrapper {
+  height: 100%;
+  padding: 20px 20px;
+  width: 100%;
+  & > .headWrapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 32px;
+    & > .searchInput{
+      width: 80%;
+    };
+  };
+  & .itemWrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    height: calc(~'100% - 52px');
+    margin-top: 20px;
+    overflow: auto;
+    padding: 0 12px;
+    & .item {
+        padding: 4px 24px;
+        margin: 0 124px 12px 0;
+        width: fit-content;
+        min-width: 120px;
+        & > .menu {
+          display: flex;
+          align-items: center;
+          position: relative;
+          & > .icon {
+            position: absolute;
+            margin-left: -20px;
+            vertical-align: 0px;
+          };
+          & > .menuTitle {
+            font-size: 16px;
+            line-height: 28px;
+          };
+        }
+        & > .module{
+          padding-left: 0px;
+        };
+      };
+  };
+};

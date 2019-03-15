@@ -1,0 +1,71 @@
+.title {
+  font-size: 14px;
+  color: #5a5a5a;
+  margin-top: 18px;
+}
+
+
+
+.item {
+  display: flex;
+  align-items: center;
+  &:hover {
+    & > .deleteIcon {
+      opacity: 1;
+    }
+  }
+  & > .deleteIcon {
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(187, 187, 187);
+    opacity: 0;
+    transition: all 0.3s ease;
+    transform: translateY(50%);
+    &:hover {
+      transform: translateY(50%) scale(1.11);
+      color: rgb(88, 88, 88);
+    }
+  }
+}
+
+.itemCheck {
+  display: flex;
+  align-items: center;
+  .icon {
+    display: none;
+  }
+}
+
+.itemSelect {
+  display: flex;
+  align-items: center;
+  .icon {
+    display: none;
+  }
+}
+
+.radio {
+  font-size: 14px;
+  color: #365169;
+  
+
+}
+
+.radioGroup {
+  width: 100%;
+  padding-top: 12px;
+  padding-left:16px;
+  margin-bottom: 12px;
+}
+
+.distance {
+  padding-bottom:10px;
+  &:last-child{
+    padding-bottom:0;
+  }
+}
+
+.inputNumber{
+  margin-top: 12px;
+}
+

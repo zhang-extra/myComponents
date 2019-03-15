@@ -1,0 +1,87 @@
+.chartList {
+  display: flex;
+  flex: 1 1 auto;
+  height: 100%;
+  & :global(.ReactVirtualized__List) {
+    outline: none;
+  };
+  & .item {
+    display: flex;
+    align-items: center;
+    padding: 12px 12px;
+    &.own {
+      flex-direction: row-reverse;
+      & > .avatar {
+        margin-left: 8px;
+      };
+      & > div {
+        align-items: flex-end;
+        & > .text {
+          margin-right: 0px;
+        };
+        & > .time {
+          margin-right: 2px;
+        };
+      }
+    };
+    &.others {
+      flex-direction: row;
+      & > .avatar {
+        margin-right: 8px;
+      };
+      & > div {
+        align-items: flex-start;
+        & > .text {
+          margin-left: 0px;
+        };
+        & > .time {
+          margin-left: 2px;
+        };
+      }
+    };
+    & > .avatar {
+      align-self: flex-start;
+      margin-top: 1.5px;
+    };
+    & > div {
+      display: flex;
+      flex-direction: column;
+      max-width: 75%;
+      & > .text {
+        position: relative;
+        right: 0;
+        max-width: 100%;
+        width: fit-content;
+        padding: 8px 13px;
+        border-radius: 10px;
+        background: #e5f6fb;
+        & > pre {
+          margin: 0;
+          text-overflow: ellipsis;
+          white-space: pre-wrap;
+          word-wrap: break-word;
+        };
+        & > .sendingIcon {
+          position: absolute;
+          right: 100%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          color: #0050b3;
+          &.failed {
+            transform: translate(-10%, -50%);
+            font-size: 18px;
+            color: red;
+            &:hover {
+              cursor: pointer;
+            };
+          };
+        };
+      };
+      & > .time {
+        color: #a6a6a6;
+        font-size: 12px;
+        white-space: nowrap;
+      };
+    };
+  };
+}

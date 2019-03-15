@@ -1,0 +1,32 @@
+.wrapper {
+  width: 300px;
+  & :global(.ant-input) {
+    padding-right: 75px !important;
+  }
+}
+
+.siffix {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  & > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    &:hover {
+      border-radius: 50%;
+      background: rgba(60, 64, 67, 0.08);
+    };
+  }
+  & > .emptyIcon {
+    font-size: 13px;
+    cursor: pointer;
+  };
+  & > .dropDownIcon {
+    margin-left: 0px;
+    font-size: 15px;
+    cursor: pointer;
+  };
+}

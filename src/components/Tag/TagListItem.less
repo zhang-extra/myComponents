@@ -1,0 +1,39 @@
+// 小圆圈
+.cycle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-top: 6px;
+  margin-left: 2px;
+}
+.icon {
+  display: none !important;
+}
+// 主div
+.main {
+  padding: 8px 8px;
+  margin-top: 3px;
+  cursor: pointer;
+  position: relative;
+  &:hover {
+    background: #f5f5f5;
+    .icon {
+      display: flex !important;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 16px;
+      color: #999;
+      text-align: center;
+      padding-top: 2px;
+    }
+  }
+
+  .check{
+    position: absolute;
+    right: 0;
+    text-align: center;
+    font-size: 18px;
+    color: #999;
+    line-height: 1 !important;
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "0": {
+    "key": 0,
+    "id": "产品设计",
+    "avatar": "产",
+    "description": "产品设计的群",
+    "owner": 0,
+    "users": [0, 1, 2, 3]
+  },
+  "1": {
+    "key": 1,
+    "id": "ABC",
+    "avatar": "A",
+    "description": "AAAAAAAA",
+    "owner": 0,
+    "users": [0, 5, 7, 1]
+  }
+}

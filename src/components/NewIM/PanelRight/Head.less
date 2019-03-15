@@ -1,0 +1,59 @@
+.panelRightHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 0 64px;
+  height: 64px;
+  padding: 0 16px;
+  border-bottom: 1.5px solid #e5e5e5;
+  &.noChat {
+    justify-content: flex-end;
+  };
+  & > .backSettingIcon {
+    font-size: 18px;
+    cursor: pointer;
+    &:hover {
+      color: #69c0ff;
+    };
+  };
+  & > span {
+    font-size: 18px;
+    &.setting {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    };
+  };
+  & > .iconGroup {
+    display: flex;
+    align-items: center;
+    & > i {
+      color: grey;
+      font-size: 18px;
+      cursor: pointer;
+      &:hover {
+        color: #69c0ff;
+      };
+    };
+    & > i + i {
+      margin-left: 16px;
+    };
+    i:last-child {
+      font-size: 20px;
+    };
+  };
+};
+
+.meunDisable {
+  color: rgba(0, 0, 0, 0.65);
+  cursor: default;
+  & > button {
+    margin: -4px 0 0 8px;;
+  };
+  &:hover {
+    color: rgba(0, 0, 0, 0.65);
+    background-color: #fff;
+    cursor: default;
+  }
+};

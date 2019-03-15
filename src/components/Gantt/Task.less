@@ -1,0 +1,37 @@
+.task {
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
+  background: #d9d9d9;
+  margin: 120px auto 0 auto;
+  & > .process {
+    z-index: 2;
+    position: relative;
+    height: 100%;
+    background: #40a9ff;
+    & > .processBar {
+      z-index: 2;
+      position: absolute;
+      width: 8px;
+      height: 100%;
+      background: transparent;
+      right: 0;
+      cursor: move;
+    };
+  };
+}
+
+.scaleBar {
+  z-index: 1;
+  position: absolute;
+  width: 8px;
+  height: 100%;
+  background: transparent;
+  cursor: col-resize;
+  &.left {
+    left: 0;
+  };
+  &.right {
+    right: 0;
+  };
+};

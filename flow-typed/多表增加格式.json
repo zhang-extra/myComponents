@@ -1,0 +1,35 @@
+[
+	{
+		"name": "pers_employee",
+		"data":{
+		    "num": "zhonghao",
+		    "background": "基本情况300",
+		    "mobile": null,
+		    "email": null
+		}
+
+	},
+	{
+		"name":"tra_trainer",
+		"data":{
+			"num": "zhonghao",
+		    "background": "啊实打实",
+		    "mobile": null,
+		    "email": null
+		}	
+	},
+	{
+		"name":"tra_course_trrainer",
+		"data":[{
+			"name": "张三",
+		    "background": "背景",
+		    "mobile": "16165@qq.om",
+		    "email": null
+		},{
+			"name": "李四",
+		    "background": "背景2",
+		    "mobile": "3216846",
+		    "email": "16165@qq.om"
+		}]
+	}
+]

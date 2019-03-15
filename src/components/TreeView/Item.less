@@ -1,0 +1,66 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  border-radius: 4px;
+  border: 1px solid #40a9ff; 
+  background: white;
+  transition: transform 0.5s ease, background 0.5s ease;
+  &.ExpandRecently {
+    transform: scale(1.1);
+    background: #f4ffb8;
+  };
+  &:hover {
+    & > .footer {
+      opacity: 1;
+    };
+  };
+  
+  & > .label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 28px;
+    color: white;
+    background: #40a9ff;
+    &.simple {
+      flex: 1;
+    }
+  };
+  & > .footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 28px;
+    padding: 0 4px;
+    background: rgb(140, 140, 140);
+    opacity: 0;
+    transition: all 0.5s ease;
+    & > .icon {
+      font-size: 18px;
+      cursor: pointer;
+      color: white;
+      transition: all 0.2s ease;
+      &:hover {
+        transform: scale(1.15);
+      };
+    };
+  };
+  & > .simpleModeExpand {
+    position: absolute;
+    bottom: 3px;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.2s ease;
+    &:hover {
+      transform: scale(1.15);
+    };
+  }
+}

@@ -1,0 +1,201 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  min-height: 100%;
+  padding: 32px;
+  background: #f5f5f5;
+
+  & > .panelLeft {
+    width: 70%;
+    border-radius: 8px;
+    background: transparent;
+
+    & > .inputArea {
+      & > textarea {
+        // width: 80%;
+      };
+
+      & > .buttonArea {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        padding: 0 12px;
+        background: #fff;
+        border: 1px solid #d9d9d9;
+        border-top: 0;
+        & button + button {
+          margin-left: 12px;
+        };
+        & .button {
+          &.green {
+            border-color: #52c41a;
+            background: #52c41a;
+          };
+          & i {
+            font-size: 20px;
+          };
+        };
+      };
+    };
+
+    & > .trendsArea {
+      position: relative;
+      list-style: none;
+      margin: 8px 0 0 0;
+      padding: 0;
+      & > .line {
+        position: absolute;
+        left: 30px;
+        top: -24px;
+        width: 4px;
+        height: calc(~'100% + 24px');        & > .typeIcon {
+          cursor: default !important;
+          border: 0 !important;
+          & i {
+            color: #fff;
+          };
+          &.a {
+            background: #40a9ff;
+          };
+          &.b {
+            background: #73d13d;
+          };
+          &.c {
+            background: #9254de;
+          };
+        };
+        background: #e8e8e8;
+      };
+      & .trend {
+        position: relative;
+        margin: 24px 0 24px 64px;
+        min-height: 120px;
+        background: #fff;
+        border: 1px solid #d9d9d9;
+        &::before {
+          content: '';
+          position: absolute;
+          transform: translate(-100%, 24px);
+          width: 0;
+          height: 0;
+          border-width: 8px 8px 8px 0;
+          border-style: solid;
+          border-color: transparent #d9d9d9 transparent transparent;/*透明 灰 透明 透明 */
+        };
+        &::after {
+          content: '';
+          position: absolute;
+          transform: translate(-100%, 25.25px);
+          width: 0;
+          height: 0;
+          border-width: 6.5px 6.5px 6.5px 0;
+          border-style: solid;
+          border-color: transparent #fff transparent transparent;/*透明 灰 透明 透明 */
+        };
+
+        & > .IconWrapper {
+          display: flex;
+          align-items: center;
+          position: absolute;
+          height: 44px;
+          top: 8.5px;
+          left: -48px;
+          background: #f5f5f5;
+          & > .typeIcon {
+            cursor: default !important;
+            border: 0 !important;
+            & i {
+              color: #fff;
+            };
+            &.a {
+              background: #40a9ff;
+            };
+            &.b {
+              background: #73d13d;
+            };
+            &.c {
+              background: #9254de;
+            };
+          };
+
+        }
+      };
+    };
+
+  };
+
+  & > .panelRight {
+    flex: 1;
+    margin-left: 5%;
+    width: 25%;
+    border-radius: 8px;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+
+    & > .membersWrapper {
+      position: relative;
+      list-style: none;
+      margin: 8px 0 0 0;
+      padding: 12px;
+      border-top: 1px solid #d9d9d9;
+
+      & > .memberTitle {
+        font-size: 18px;
+        font-weight: 600;
+      };
+
+      & > .setting {
+        position: absolute;
+        right: 28px;
+        top: 16px;
+        font-size: 14px;
+        color: rgba(0, 0, 0 , 0.6);
+      };
+
+      & > .settingIcon {
+        position: absolute;
+        top: 18.5px;
+        right: 8px;
+        font-size: 14px;
+        color: rgba(0, 0, 0 , 0.6);
+      };
+
+      & .member {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 16px;
+        height: 72px;
+        & > .text {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          max-width: 70%;
+          margin-left: 20px;
+          & > .id, .description {
+            margin: 0;
+            overflow: hidden;
+            white-space: nowrap;  
+            text-overflow: ellipsis;
+            font-family: monospace;
+          };
+          & > .id {
+            color: rgba(0, 0, 0, 0.65);
+            margin-bottom: 4px;
+            font-size: 14px;
+          };
+          & > .description {
+            font-size: 13px;
+            color: rgba(0, 0, 0, 0.45);
+          };
+        };
+      };
+
+    };
+
+  };
+}

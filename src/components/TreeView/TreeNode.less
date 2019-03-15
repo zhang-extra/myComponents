@@ -1,0 +1,16 @@
+.treeNodeWrapper {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  & > .line {
+    content: '';
+    display: block;
+    position: absolute;
+  };
+  & > .childrenWrapper {
+    display: flex;
+  };
+}

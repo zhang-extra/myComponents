@@ -1,0 +1,2305 @@
+{
+  "value": 0,
+  "key": 0,
+  "label": "华夏航空夏航空",
+  "isLeaf": false,
+  "deleteable": false,
+  "children": [
+      {
+          "key": 24,
+          "value": 24,
+          "label": "公司管理部",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 440,
+                  "value": 440,
+                  "label": "30",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 441,
+                  "value": 441,
+                  "label": "31",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 442,
+                  "value": 442,
+                  "label": "32",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 443,
+                  "value": 443,
+                  "label": "daren183783",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 444,
+                  "value": 444,
+                  "label": "daren56355",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 445,
+                  "value": 445,
+                  "label": "33",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 446,
+                  "value": 446,
+                  "label": "34",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 1,
+          "value": 1,
+          "label": "安全质量监察部",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 326,
+                  "value": 326,
+                  "label": "风险管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 349,
+                  "value": 349,
+                  "label": "安全信息分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 351,
+                  "value": 351,
+                  "label": "安全审计分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 352,
+                  "value": 352,
+                  "label": "安全监察分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 2,
+          "value": 2,
+          "label": "保卫部",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 282,
+                  "value": 282,
+                  "label": "训练与综合管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 283,
+                  "value": 283,
+                  "label": "安全质量分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 284,
+                  "value": 284,
+                  "label": "空中安全保卫大队",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 23,
+          "value": 23,
+          "label": "财务部",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 399,
+                  "value": 399,
+                  "label": "财务分析分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 400,
+                  "value": 400,
+                  "label": "资金分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 401,
+                  "value": 401,
+                  "label": "会计分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 402,
+                  "value": 402,
+                  "label": "收入结算分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 40,
+          "value": 40,
+          "label": "法务部",
+          "isLeaf": true,
+          "deleteable": true,
+          "deleted": false
+      },
+      {
+          "key": 10,
+          "value": 10,
+          "label": "飞行管理部",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 374,
+                  "value": 374,
+                  "label": "飞行一中队",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 382,
+                  "value": 382,
+                  "label": "飞行二中队",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 372,
+                  "value": 372,
+                  "label": "飞行三中队",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 373,
+                  "value": 373,
+                  "label": "飞行四中队",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 369,
+                  "value": 369,
+                  "label": "飞行五中队",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 375,
+                  "value": 375,
+                  "label": "飞行外籍中队",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 370,
+                  "value": 370,
+                  "label": "飞行A320中队",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 371,
+                  "value": 371,
+                  "label": "飞行学员中队",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 376,
+                  "value": 376,
+                  "label": "飞行资源管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 378,
+                  "value": 378,
+                  "label": "安全质量分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 379,
+                  "value": 379,
+                  "label": "招飞中心",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 381,
+                  "value": 381,
+                  "label": "训练与技术分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 377,
+                  "value": 377,
+                  "label": "综合管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 8,
+          "value": 8,
+          "label": "飞机引进办",
+          "isLeaf": true,
+          "deleteable": true,
+          "deleted": false
+      },
+      {
+          "key": 5,
+          "value": 5,
+          "label": "客舱地面服务部",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 237,
+                  "value": 237,
+                  "label": "机坪保障分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 238,
+                  "value": 238,
+                  "label": "服务管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 239,
+                  "value": 239,
+                  "label": "呼叫中心",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 240,
+                  "value": 240,
+                  "label": "安全质量分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 241,
+                  "value": 241,
+                  "label": "地面服务分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 242,
+                  "value": 242,
+                  "label": "综合管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 243,
+                  "value": 243,
+                  "label": "乘务分部",
+                  "isLeaf": false,
+                  "deleteable": false,
+                  "children": [
+                      {
+                          "key": 260,
+                          "value": 260,
+                          "label": "乘务一中队",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      },
+                      {
+                          "key": 255,
+                          "value": 255,
+                          "label": "乘务二中队",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      },
+                      {
+                          "key": 257,
+                          "value": 257,
+                          "label": "乘务三中队",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      },
+                      {
+                          "key": 261,
+                          "value": 261,
+                          "label": "乘务四中队",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      },
+                      {
+                          "key": 256,
+                          "value": 256,
+                          "label": "乘务五中队",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      },
+                      {
+                          "key": 262,
+                          "value": 262,
+                          "label": "乘务六中队",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      },
+                      {
+                          "key": 259,
+                          "value": 259,
+                          "label": "乘务七中队",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      },
+                      {
+                          "key": 258,
+                          "value": 258,
+                          "label": "乘务学员中队",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      },
+                      {
+                          "key": 434,
+                          "value": 434,
+                          "label": "乘务八中队",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      }
+                  ],
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 13,
+          "value": 13,
+          "label": "内部审计部",
+          "isLeaf": true,
+          "deleteable": true,
+          "deleted": false
+      },
+      {
+          "key": 25,
+          "value": 25,
+          "label": "人力资源部",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 145,
+                  "value": 145,
+                  "label": "组织与人才发展分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 146,
+                  "value": 146,
+                  "label": "员工关系分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 147,
+                  "value": 147,
+                  "label": "薪酬激励分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 14,
+          "value": 14,
+          "label": "维修工程部",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 342,
+                  "value": 342,
+                  "label": "航线一分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 331,
+                  "value": 331,
+                  "label": "航线二分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 332,
+                  "value": 332,
+                  "label": "航线三分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 333,
+                  "value": 333,
+                  "label": "发动机分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 334,
+                  "value": 334,
+                  "label": "质量分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 335,
+                  "value": 335,
+                  "label": "计划分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 336,
+                  "value": 336,
+                  "label": "工程分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 339,
+                  "value": 339,
+                  "label": "设备保障分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 340,
+                  "value": 340,
+                  "label": "定检分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 341,
+                  "value": 341,
+                  "label": "培训分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 343,
+                  "value": 343,
+                  "label": "航材分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 344,
+                  "value": 344,
+                  "label": "附件分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 338,
+                  "value": 338,
+                  "label": "商务发展分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 337,
+                  "value": 337,
+                  "label": "综合管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 22,
+          "value": 22,
+          "label": "信息技术管理部",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 277,
+                  "value": 277,
+                  "label": "产品分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 278,
+                  "value": 278,
+                  "label": "运维分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 279,
+                  "value": 279,
+                  "label": "安全标准分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 280,
+                  "value": 280,
+                  "label": "研发分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 281,
+                  "value": 281,
+                  "label": "数据管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 9,
+          "value": 9,
+          "label": "综合部",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 244,
+                  "value": 244,
+                  "label": "行政分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 245,
+                  "value": 245,
+                  "label": "航医室",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 246,
+                  "value": 246,
+                  "label": "宣传分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 247,
+                  "value": 247,
+                  "label": "工程建设分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 248,
+                  "value": 248,
+                  "label": "采购分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 249,
+                  "value": 249,
+                  "label": "后勤保障分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 11,
+          "value": 11,
+          "label": "战略管理部",
+          "isLeaf": true,
+          "deleteable": true,
+          "deleted": false
+      },
+      {
+          "key": 37,
+          "value": 37,
+          "label": "总裁办公室",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 389,
+                  "value": 389,
+                  "label": "秘书室",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 390,
+                  "value": 390,
+                  "label": "企管室",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 61,
+          "value": 61,
+          "label": "营销中心办公室",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 128,
+                  "value": 128,
+                  "label": "培训考核分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 130,
+                  "value": 130,
+                  "label": "综合支持分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 47,
+          "value": 47,
+          "label": "对外合作部",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 186,
+                  "value": 186,
+                  "label": "合作支持分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 188,
+                  "value": 188,
+                  "label": "通程项目组",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 77,
+          "value": 77,
+          "label": "销售部",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 195,
+                  "value": 195,
+                  "label": "收益分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 197,
+                  "value": 197,
+                  "label": "销售支持分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 198,
+                  "value": 198,
+                  "label": "产品支持分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 199,
+                  "value": 199,
+                  "label": "渠道管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 200,
+                  "value": 200,
+                  "label": "营销策划分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 201,
+                  "value": 201,
+                  "label": "客户管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 202,
+                  "value": 202,
+                  "label": "旅游项目组",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 425,
+                  "value": 425,
+                  "label": "收益项目组",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 436,
+                  "value": 436,
+                  "label": "线上运营分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 437,
+                  "value": 437,
+                  "label": "系统研发分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 438,
+                  "value": 438,
+                  "label": "技术支持分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 56,
+          "value": 56,
+          "label": "市场重庆大区",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 366,
+                  "value": 366,
+                  "label": "商务合作分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 367,
+                  "value": 367,
+                  "label": "重庆营业部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 368,
+                  "value": 368,
+                  "label": "项目运营分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 71,
+          "value": 71,
+          "label": "市场东北大区",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 224,
+                  "value": 224,
+                  "label": "山东营业部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 225,
+                  "value": 225,
+                  "label": "商务合作分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 226,
+                  "value": 226,
+                  "label": "东北营业部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 227,
+                  "value": 227,
+                  "label": "收益管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 228,
+                  "value": 228,
+                  "label": "中转旅游分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 73,
+          "value": 73,
+          "label": "市场贵州特区",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 230,
+                  "value": 230,
+                  "label": "毕节营业部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 231,
+                  "value": 231,
+                  "label": "兴义营业部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 232,
+                  "value": 232,
+                  "label": "收益管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 233,
+                  "value": 233,
+                  "label": "商务合作分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 234,
+                  "value": 234,
+                  "label": "营销支持分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 235,
+                  "value": 235,
+                  "label": "荔波营业部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 236,
+                  "value": 236,
+                  "label": "铜仁营业部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 60,
+          "value": 60,
+          "label": "市场华北大区",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 327,
+                  "value": 327,
+                  "label": "山西营业部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 328,
+                  "value": 328,
+                  "label": "河北营业部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 329,
+                  "value": 329,
+                  "label": "收益管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 330,
+                  "value": 330,
+                  "label": "运营管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 69,
+          "value": 69,
+          "label": "市场华东大区",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 268,
+                  "value": 268,
+                  "label": "江浙营业部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 269,
+                  "value": 269,
+                  "label": "皖赣闽营业部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 270,
+                  "value": 270,
+                  "label": "收益管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 271,
+                  "value": 271,
+                  "label": "中转旅游分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 45,
+          "value": 45,
+          "label": "市场内蒙特区",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 149,
+                  "value": 149,
+                  "label": "呼和营业部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 150,
+                  "value": 150,
+                  "label": "蒙北营业部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 151,
+                  "value": 151,
+                  "label": "综合管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 152,
+                  "value": 152,
+                  "label": "蒙西营业部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 154,
+                  "value": 154,
+                  "label": "蒙东营业部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 157,
+                  "value": 157,
+                  "label": "运营管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 158,
+                  "value": 158,
+                  "label": "通融事业分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 160,
+                  "value": 160,
+                  "label": "市场销售分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 162,
+                  "value": 162,
+                  "label": "收益管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 57,
+          "value": 57,
+          "label": "市场西北大区",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 383,
+                  "value": 383,
+                  "label": "天水营业部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 384,
+                  "value": 384,
+                  "label": "南疆营业部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 385,
+                  "value": 385,
+                  "label": "北疆营业部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 386,
+                  "value": 386,
+                  "label": "收益管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 387,
+                  "value": 387,
+                  "label": "旅游项目分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 388,
+                  "value": 388,
+                  "label": "固原营业部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 427,
+                  "value": 427,
+                  "label": "商务合作分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 72,
+          "value": 72,
+          "label": "市场中南大区",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 272,
+                  "value": 272,
+                  "label": "湖南营业部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 273,
+                  "value": 273,
+                  "label": "湖北营业部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 274,
+                  "value": 274,
+                  "label": "收益管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 275,
+                  "value": 275,
+                  "label": "商务合作分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 276,
+                  "value": 276,
+                  "label": "广西营业部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 426,
+                  "value": 426,
+                  "label": "永州销售分公司筹备项目组",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 18,
+          "value": 18,
+          "label": "贵阳基地",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 391,
+                  "value": 391,
+                  "label": "基地综合管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 392,
+                  "value": 392,
+                  "label": "贵阳基地商务分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 394,
+                  "value": 394,
+                  "label": "基地运行管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 395,
+                  "value": 395,
+                  "label": "基地安全保卫管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 17,
+          "value": 17,
+          "label": "西安基地",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 133,
+                  "value": 133,
+                  "label": "基地安全保卫管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 134,
+                  "value": 134,
+                  "label": "基地运行管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 135,
+                  "value": 135,
+                  "label": "基地综合管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 3,
+          "value": 3,
+          "label": "大连基地",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 208,
+                  "value": 208,
+                  "label": "基地运行管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 209,
+                  "value": 209,
+                  "label": "基地安全保卫管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 210,
+                  "value": 210,
+                  "label": "基地综合管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 4,
+          "value": 4,
+          "label": "内蒙基地",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 353,
+                  "value": 353,
+                  "label": "基地安全保卫管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 355,
+                  "value": 355,
+                  "label": "基地综合管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 356,
+                  "value": 356,
+                  "label": "基地运行管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 19,
+          "value": 19,
+          "label": "运行标准部",
+          "isLeaf": true,
+          "deleteable": true,
+          "deleted": false
+      },
+      {
+          "key": 12,
+          "value": 12,
+          "label": "市场网络规划部",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 220,
+                  "value": 220,
+                  "label": "网络规划分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 221,
+                  "value": 221,
+                  "label": "航班计划管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 222,
+                  "value": 222,
+                  "label": "综合业务管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 223,
+                  "value": 223,
+                  "label": "市场网络支持分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 16,
+          "value": 16,
+          "label": "运行控制部",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 176,
+                  "value": 176,
+                  "label": "安全质量分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 177,
+                  "value": 177,
+                  "label": "技术支援分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 178,
+                  "value": 178,
+                  "label": "训练及综合管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 179,
+                  "value": 179,
+                  "label": "运行管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 180,
+                  "value": 180,
+                  "label": "签派分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 35,
+          "value": 35,
+          "label": "工会办公室",
+          "isLeaf": true,
+          "deleteable": true,
+          "deleted": false
+      },
+      {
+          "key": 31,
+          "value": 31,
+          "label": "证券投资部",
+          "isLeaf": true,
+          "deleteable": true,
+          "deleted": false
+      },
+      {
+          "key": 26,
+          "value": 26,
+          "label": "北京办事处",
+          "isLeaf": true,
+          "deleteable": true,
+          "deleted": false
+      },
+      {
+          "key": 62,
+          "value": 62,
+          "label": "AOC（运营中心）",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 251,
+                  "value": 251,
+                  "label": "运行成本管控分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 252,
+                  "value": 252,
+                  "label": "运行风险管控分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 253,
+                  "value": 253,
+                  "label": "综合管理分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 254,
+                  "value": 254,
+                  "label": "运行效率管控分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 67,
+          "value": 67,
+          "label": "成都过夜点",
+          "isLeaf": true,
+          "deleteable": true,
+          "deleted": false
+      },
+      {
+          "key": 58,
+          "value": 58,
+          "label": "库尔勒过夜点",
+          "isLeaf": true,
+          "deleteable": true,
+          "deleted": false
+      },
+      {
+          "key": 68,
+          "value": 68,
+          "label": "天津过夜点",
+          "isLeaf": true,
+          "deleteable": true,
+          "deleted": false
+      },
+      {
+          "key": 59,
+          "value": 59,
+          "label": "兰州过夜点",
+          "isLeaf": true,
+          "deleteable": true,
+          "deleted": false
+      },
+      {
+          "key": 55,
+          "value": 55,
+          "label": "沙捞越项目组",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 403,
+                  "value": 403,
+                  "label": "安全质量标准组",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 404,
+                  "value": 404,
+                  "label": "运行组",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 405,
+                  "value": 405,
+                  "label": "综合组",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 64,
+          "value": 64,
+          "label": "商务航空项目组",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 360,
+                  "value": 360,
+                  "label": "维修组",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 361,
+                  "value": 361,
+                  "label": "市场组",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 362,
+                  "value": 362,
+                  "label": "运行组",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 363,
+                  "value": 363,
+                  "label": "飞行管理组",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 364,
+                  "value": 364,
+                  "label": "安全组",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 365,
+                  "value": 365,
+                  "label": "综合组",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 46,
+          "value": 46,
+          "label": "华夏通用航空有限公司",
+          "isLeaf": true,
+          "deleteable": true,
+          "deleted": false
+      },
+      {
+          "key": 54,
+          "value": 54,
+          "label": "工程建设指挥部",
+          "isLeaf": true,
+          "deleteable": true,
+          "deleted": false
+      },
+      {
+          "key": 66,
+          "value": 66,
+          "label": "通融内蒙古分公司",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 143,
+                  "value": 143,
+                  "label": "采购分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 144,
+                  "value": 144,
+                  "label": "运营分部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 30,
+          "value": 30,
+          "label": "云集文化传媒",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 173,
+                  "value": 173,
+                  "label": "经营中心",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 174,
+                  "value": 174,
+                  "label": "编辑部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 175,
+                  "value": 175,
+                  "label": "综合部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 7,
+          "value": 7,
+          "label": "培训中心",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 113,
+                  "value": 113,
+                  "label": "飞行训练部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 114,
+                  "value": 114,
+                  "label": "工程维护部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 115,
+                  "value": 115,
+                  "label": "维修培训部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 116,
+                  "value": 116,
+                  "label": "客舱培训部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 117,
+                  "value": 117,
+                  "label": "市场开发部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 118,
+                  "value": 118,
+                  "label": "质量管理部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 119,
+                  "value": 119,
+                  "label": "综合管理部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 48,
+          "value": 48,
+          "label": "华夏通融",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 311,
+                  "value": 311,
+                  "label": "人事行政部",
+                  "isLeaf": false,
+                  "deleteable": false,
+                  "children": [
+                      {
+                          "key": 410,
+                          "value": 410,
+                          "label": "人力资源部",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      },
+                      {
+                          "key": 411,
+                          "value": 411,
+                          "label": "行政部",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      }
+                  ],
+                  "deleted": false
+              },
+              {
+                  "key": 317,
+                  "value": 317,
+                  "label": "运营中心",
+                  "isLeaf": false,
+                  "deleteable": false,
+                  "children": [
+                      {
+                          "key": 89,
+                          "value": 89,
+                          "label": "非票部",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      },
+                      {
+                          "key": 90,
+                          "value": 90,
+                          "label": "零售部",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      },
+                      {
+                          "key": 91,
+                          "value": 91,
+                          "label": "商务部",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      },
+                      {
+                          "key": 92,
+                          "value": 92,
+                          "label": "客服部",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      },
+                      {
+                          "key": 93,
+                          "value": 93,
+                          "label": "市场部",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      },
+                      {
+                          "key": 94,
+                          "value": 94,
+                          "label": "新媒体部",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      },
+                      {
+                          "key": 95,
+                          "value": 95,
+                          "label": "旅游部",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      },
+                      {
+                          "key": 96,
+                          "value": 96,
+                          "label": "金融部",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      },
+                      {
+                          "key": 97,
+                          "value": 97,
+                          "label": "官网部",
+                          "isLeaf": false,
+                          "deleteable": false,
+                          "children": [
+                              {
+                                  "key": 103,
+                                  "value": 103,
+                                  "label": "贵阳分公司",
+                                  "isLeaf": true,
+                                  "deleteable": true,
+                                  "deleted": false
+                              }
+                          ],
+                          "deleted": false
+                      },
+                      {
+                          "key": 98,
+                          "value": 98,
+                          "label": "机票部",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      }
+                  ],
+                  "deleted": false
+              },
+              {
+                  "key": 320,
+                  "value": 320,
+                  "label": "研发中心",
+                  "isLeaf": false,
+                  "deleteable": false,
+                  "children": [
+                      {
+                          "key": 164,
+                          "value": 164,
+                          "label": "产品部",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      },
+                      {
+                          "key": 165,
+                          "value": 165,
+                          "label": "BI部",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      },
+                      {
+                          "key": 166,
+                          "value": 166,
+                          "label": "技术部",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      }
+                  ],
+                  "deleted": false
+              },
+              {
+                  "key": 321,
+                  "value": 321,
+                  "label": "中转事业部",
+                  "isLeaf": false,
+                  "deleteable": false,
+                  "children": [
+                      {
+                          "key": 212,
+                          "value": 212,
+                          "label": "技术部",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      },
+                      {
+                          "key": 213,
+                          "value": 213,
+                          "label": "产品部",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      }
+                  ],
+                  "deleted": false
+              },
+              {
+                  "key": 322,
+                  "value": 322,
+                  "label": "供应链事业部",
+                  "isLeaf": false,
+                  "deleteable": false,
+                  "children": [
+                      {
+                          "key": 182,
+                          "value": 182,
+                          "label": "市场部",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      },
+                      {
+                          "key": 183,
+                          "value": 183,
+                          "label": "管理部",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      },
+                      {
+                          "key": 184,
+                          "value": 184,
+                          "label": "运营部",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      },
+                      {
+                          "key": 185,
+                          "value": 185,
+                          "label": "航空货运部",
+                          "isLeaf": true,
+                          "deleteable": true,
+                          "deleted": false
+                      }
+                  ],
+                  "deleted": false
+              },
+              {
+                  "key": 323,
+                  "value": 323,
+                  "label": "财务部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 325,
+                  "value": 325,
+                  "label": "总经理办公室",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 424,
+                  "value": 424,
+                  "label": "机场端融合事业部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 70,
+          "value": 70,
+          "label": "华夏典藏北京公司",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 124,
+                  "value": 124,
+                  "label": "旅游业务小组",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 357,
+          "value": 357,
+          "label": "华夏典藏重庆分公司",
+          "isLeaf": false,
+          "deleteable": false,
+          "children": [
+              {
+                  "key": 121,
+                  "value": 121,
+                  "label": "财务部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 122,
+                  "value": 122,
+                  "label": "出境部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 123,
+                  "value": 123,
+                  "label": "国内部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 125,
+                  "value": 125,
+                  "label": "人事行政部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 126,
+                  "value": 126,
+                  "label": "市场部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              },
+              {
+                  "key": 127,
+                  "value": 127,
+                  "label": "产品研发部",
+                  "isLeaf": true,
+                  "deleteable": true,
+                  "deleted": false
+              }
+          ],
+          "deleted": false
+      },
+      {
+          "key": 44,
+          "value": 44,
+          "label": "赣州",
+          "isLeaf": true,
+          "deleteable": true,
+          "deleted": false
+      },
+      {
+          "key": 21,
+          "value": 21,
+          "label": "测试部",
+          "isLeaf": true,
+          "deleteable": true,
+          "deleted": false
+      },
+      {
+          "key": 439,
+          "value": 439,
+          "label": "营销中心",
+          "isLeaf": true,
+          "deleteable": true,
+          "deleted": false
+      },
+      {
+          "key": 428,
+          "value": 428,
+          "label": "离职人员",
+          "isLeaf": true,
+          "deleteable": true,
+          "deleted": false
+      }
+  ]
+}

@@ -1,0 +1,28 @@
+.wrapper {
+  width: 100%;
+  height: 800px;
+  background: white;
+  position: relative;
+  & > .panel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    width: fit-content;
+    height: 36px;
+    top: 12px;
+    right: 24px;
+    & > .zoomSlider {
+      width: 100px;
+    }
+    & > .select {
+      margin-left: 12px;
+      width: 77px;
+    }
+  };
+  & > .treeView {
+    width: 100%;
+    height: 100%;
+    background: white;
+  }
+}

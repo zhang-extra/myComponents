@@ -1,0 +1,61 @@
+.groupWrapper {
+  width: calc(~'100% - 48px - 12px');
+  min-height: 100px;
+  background: white;
+  border: 1px solid #d9d9d9;
+  &:not(.root) {
+    margin: 10px 4px 10px 48px;
+  }
+  border-radius: 4px;
+  position: relative;
+  & > .operatorWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 34px;
+    padding: 0 12px 0 12px;
+    & .button {
+      line-height: 26px;
+      height: 26px;
+      padding: 0;
+      text-align: center;
+    }
+    & .leftButton {
+      width: 50px;
+    }
+    & .rightButton {
+      width: 100px;
+    }
+    & .deleteButton {
+      width: 30px;
+    }
+  }
+  & > div:last-child {
+    & > div::before {
+      content: '';
+      position: absolute;
+      left: -24px;
+      width: 24px;
+      height: calc(~'50% + 15px'); // margin-top + border-width = 12px;
+      top: calc(~'-15px');
+      border: 0 solid #ccc;
+      border-width: 0 0 2px 2px;
+    }
+    & > div::after {
+      content: '';
+      position: absolute;
+      left: -24px;
+      width: 24px;
+      height: 50%;
+      top: calc(50%);
+      border: 0 solid #ccc;
+      border-width: 0 0 0 2px;
+    }
+    & > div:nth-last-child(1)::after {
+      height: 0;
+      top: 0;
+    }
+  }
+}

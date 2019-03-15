@@ -1,0 +1,45 @@
+.headWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  height: 64px;
+  padding: 0 16px;
+  border-bottom: 1.5px solid #e5e5e5;
+  &.inSponsor {
+    border: 0;
+    i:first-child {
+      font-size: 16px;
+    };
+    i:last-child {
+      opacity: 0;
+      cursor: default;
+    };
+    & > span {
+      font-size: 16px;
+      color: #383838;
+    };
+  };
+  & > i {
+    color: grey;
+    font-size: 20px;
+    cursor: pointer;
+    &:hover {
+      color: #69c0ff;
+    };
+  };
+}
+
+.meunDisable {
+  color: rgba(0, 0, 0, 0.65);
+  cursor: default;
+  & > button {
+    margin: -4px 0 0 8px;;
+  };
+  &:hover {
+    color: rgba(0, 0, 0, 0.65);
+    background-color: #fff;
+    cursor: default;
+  }
+};

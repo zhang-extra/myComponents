@@ -1,0 +1,32 @@
+.panelRightWrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+  width: 62.5%;
+  height: 100%;
+  border-left: 0.75px solid #e5e5e5;
+  & > .spin {
+    z-index: 1;
+    position: absolute;
+    top: 72px;
+    left: 50%;
+    transform: translateX(-50%);
+  };
+  & > .noChatIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 128px;
+    color: #e5e5e5;
+  };
+  & > .noChatText {
+    position: absolute;
+    top: calc(~'50% + 66px');
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 24px;
+    color: #e5e5e5;
+  };
+}
