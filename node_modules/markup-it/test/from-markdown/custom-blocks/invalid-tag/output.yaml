@@ -1,0 +1,20 @@
+document:
+  nodes:
+    - object: block
+      type: paragraph
+      nodes:
+        - object: text
+          leaves:
+            - text: A
+    - object: block
+      type: paragraph
+      nodes:
+        - object: text
+          leaves:
+            - text: B
+    - object: block
+      type: paragraph
+      nodes:
+        - object: text
+          leaves:
+            - text: C

@@ -1,0 +1,21 @@
+<body>
+    <ul>
+        <li>first item</li>
+        <li>second item <!-- Look, the closing </li> tag is not placed here! -->
+            <ol>
+                <li>second item first subitem</li>
+                <li>second item second subitem <!-- Same for the second nested unordered list! -->
+                    <ul>
+                        <li>second item second subitem first sub-subitem</li>
+                        <li>second item second subitem second sub-subitem</li>
+                        <li>second item second subitem third sub-subitem</li>
+                    </ul>
+                    <!-- Closing </li> tag for the li that contains the third unordered list -->
+                </li>
+                <li>second item third subitem</li>
+            </ol>
+            <!-- Here is the closing </li> tag -->
+        </li>
+        <li>third item</li>
+    </ul>
+</body>
